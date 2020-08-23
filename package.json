@@ -2,14 +2,17 @@
   "name": "validatorsandgenerators",
   "version": "1.0.0",
   "description": "A JavaScript Package for validating data and generating data. ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "Validators",
-    "Generators"
+    "Generators",
+    "JavScript",
+    "NodeJS",
+    "node.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pronoy999/ValidatorsAndGenerators.git"
+},
   "author": "Pronoy Mukherjee",
   "license": "MIT",
   "dependencies": {
