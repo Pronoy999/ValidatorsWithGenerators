@@ -118,7 +118,7 @@ Method to generate a random number based on a specific `length`. If the length p
 generateOTP()
 ```
 ##### Return type `integer`
-Method to generate an OTP of 4 digit length. You can also use **[generateRandomNumber](#generaterandomnumber)**. 
+Method to generate an OTP of 4 digit length. You can also use **[generateRandomNumber](#generaterandomnumberlength)**. 
 
 ### `generateRandomToken(length)`
 ```javascript
