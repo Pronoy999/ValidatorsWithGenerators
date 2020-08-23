@@ -202,4 +202,6 @@ generateDateDifference('2020-09-09','2020-10-09');
 Method to get the difference between 2 dates in days. 
 
 
+# Looking to contribute? 
 
+Feel free to leave a Pull Request and I will merge it.  For any information contact me at [@PronoyMukherje](https://twitter.com/PronoyMukherje)
