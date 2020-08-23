@@ -37,6 +37,7 @@ if(validators.validateString(data)){
 ## Table of Contents: 
 * [Validators documentation](#various-validators)
 * [Generators documentation](#various-generators)
+* [Contribution](#looking-to-contribute)
 
 ## Various-Validators: 
 
