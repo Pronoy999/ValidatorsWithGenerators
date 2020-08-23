@@ -1,6 +1,6 @@
 {
-  "name": "validatorsandgenerators",
-  "version": "1.0.0",
+  "name": "validatorswithgenerators",
+  "version": "1.0.1",
   "description": "A JavaScript Package for validating data and generating data. ",
   "keywords": [
     "Validators",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pronoy999/ValidatorsAndGenerators.git"
+    "url": "https://github.com/Pronoy999/ValidatorsWithGenerators.git"
 },
   "author": "Pronoy Mukherjee",
   "license": "MIT",
