@@ -23,6 +23,7 @@ if(validators.validateString(data)){
 
 ## Table of Contents: 
 * [Validators documentation](#various-validators)
+* [Generators documentation](#various-generators)
 
 ## Various-Validators: 
 
@@ -95,3 +96,97 @@ validateJSON(data)
 ```
 
 Method to validate whether the data is valid JSON object or not. 
+
+## Various-Generators : 
+
+### `generateParsedJSON(data)`
+```javascript
+generateParsedJSON(data)
+```
+##### Return type `{}`.
+Method to convert a string data to a valid JSON. It internally also checks for validity of the JSON structure.
+
+### `generateRandomNumber(length)` 
+```javascript
+generateRandomNumber(length)
+```
+##### Return type `integer`. 
+Method to generate a random number based on a specific `length`. If the length parameter is not specified it generates a random number of length `8`. 
+
+### `generateOTP()`
+```javascript
+generateOTP()
+```
+##### Return type `integer`
+Method to generate an OTP of 4 digit length. You can also use **[generateRandomNumber](#generaterandomnumber)**. 
+
+### `generateRandomToken(length)`
+```javascript
+generateRandomToken(length)
+```
+##### Return type `string` 
+Method to generate a random token of a specified `length`. It can be used to generate custom tokens for various use cases. The token might include any valid number or any english lower case character or any english upper case character. If the length is not speicified it generates a token of `16` characters. 
+
+### `generateCurrentTime()` 
+```javascript
+generateCurrentTime()
+```
+##### Return Type `string` eg: '2020-09-09 19:00:12' 
+Method to generate the current date and time. It internally uses the [moment](https://github.com/moment/moment) library. 
+The date and the time are seperated with a `space`. 
+The time zone is `Asia/Kolkata`. 
+
+### `generateCurrentDateOnly()` 
+```javascript
+generateCurrentDateOnly()
+```
+##### Return type `string` eg: '2020-09-09' 
+Method to generate the current date only. It will only return the date and not the time. 
+The time zone is `Asia/Kolkata`. 
+
+### `generateAheadDate(aheadDays)`
+```javascript
+generateAheadDate(aheadDays)
+```
+##### Return type `string` 
+Method to generate the date some days ahead of the current date. If the current date is `2020-09-09` and the `aheadDays` is 2, then the result will be `2020-09-11`. It automatically handles the month end senarios. 
+
+### `generateCurrentMonth()`
+```javascript
+generateCurrentMonth()
+```
+##### Return type `integer` 
+Method to generate the current month index. It returns the 0 based index. eg: *`Januray: 0, February: 1`*
+
+
+### `generateCurrentMonthName()`
+```javascript
+generateCurrentMonthName()
+```
+##### Return type `string` 
+Method to generate the current month in string format and not index or number. 
+
+### `generateDaysInMonth(year,month)
+```javascript
+generateDaysInMonth(2020,09) // 09: for September.
+```
+##### Return type `integer` 
+Method to generate the number of days in a `month` for a specified `year`. 
+
+### `generateCurrentYear()`
+```javascript
+generateCurrentYear()
+```
+##### Return type: `integer` 
+Method to generate the current year in number. 
+
+### `generateDateDifference()`
+
+```javascript
+generateDateDifference('2020-09-09','2020-10-09');
+```
+##### Return type: `integer` 
+Method to get the difference between 2 dates in days. 
+
+
+
