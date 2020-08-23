@@ -1,0 +1,19 @@
+{
+  "name": "validatorsandgenerators",
+  "version": "1.0.0",
+  "description": "A JavaScript Package for validating data and generating data. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Validators",
+    "Generators"
+  ],
+  "author": "Pronoy Mukherjee",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31"
+  }
+}
