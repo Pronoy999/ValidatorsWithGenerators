@@ -97,7 +97,7 @@ validateJSON(data)
 
 Method to validate whether the data is valid JSON object or not. 
 
-## Various-Generators : 
+## Various-Generators: 
 
 ### `generateParsedJSON(data)`
 ```javascript
