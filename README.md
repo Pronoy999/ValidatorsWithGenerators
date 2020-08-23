@@ -1,3 +1,15 @@
+<p align="center">
+  <a href="https://nodejs.org/">
+    <img
+      alt="Node.js"
+      src="https://nodejs.org/static/images/logo-light.svg"
+      width="400"
+    />
+  </a>
+</p>
+
+![](https://badgen.net/github/license/manuelbieh/geolib)
+
 # ValidatorsWithGenerators
 A JavaScript helper library to generate and validate data. 
 
@@ -5,6 +17,7 @@ This is a library to validate data that is coming from the user end or any other
 
 
 ## Install the package using npm. 
+```npm install validatorswithgenerators```
 
 ```javascript
 const validators = require('validatorswithgenerators').validators;
