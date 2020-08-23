@@ -20,9 +20,9 @@ if(validators.validateString(data)){
   console.log("Invalid!");
 } 
 ```
-### Various Validators: 
+## Various Validators: 
 
-#### All the return types are boolean.
+`All the return types are boolean.`
 
 ### `validateEmail(emailId)` 
 
@@ -33,3 +33,25 @@ Method to validate a phone number. It validates number starting with +(plus) sig
  
 ### `validateNumber(number)` 
  Method to validate a number. It will validate for `undefined` and `null` and will return true for only numbers greater than `-1`. 
+ 
+ ### `validateDate(date)` 
+ Method to validate the date. It will validate for dates in the format of `YYYY-MM-DD` only. For others it will return `false`. It will match the date with this regex `[0-9]{4}-[0-9]{2}-[0-9]{2}`
+ 
+### `validateUndefined(data)` 
+Method to validate whether the data is undefined or null. 
+
+### `validateArray(data)` 
+
+Method to validate whether the data is a valid array or not. It uses `Array.isArray()` internally. It also checks whether the array is empty or not. A valid array is a non-empty array. 
+
+### `validateBoolean(data)`
+Method to validate whether the type of data is boolean or not. 
+
+### `validateString(data)`
+Method to validate whether the data is a valid non-empty string or not. 
+
+### `validateCharacter(data)`
+Method to validate whether the data is a valid character or not. Ideal for checking Gender data as `'M' or 'F'`
+
+### `validateJSON(data)`
+Method to validate whether the data is valid JSON object or not. 
