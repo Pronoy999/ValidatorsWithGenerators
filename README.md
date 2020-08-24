@@ -47,7 +47,7 @@ if(validators.validateString(data)){
 ```javascript
 validateEmail(emailId)
 ```
-Method to check the validity of the email. It used this ```^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]                                      {2,})$``` REGEX to validate the email id. 
+Method to check the validity of the email. It uses REGEX to validate the email id. 
 
 ### `validatePhone(phoneNumber)` 
 ```javascript
