@@ -1,4 +1,4 @@
-const constants = require('./../Helpers/constants');
+const constants = require('./constants');
 const moment = require('moment');
 const tz = require('moment-timezone');
 const generator = {};
@@ -22,7 +22,7 @@ generator.generateParsedJSON = (data) => {
  */
 generator.generateRandomNumber = (len) => {
    const possibleNumbers = "01234567890123456789";
-   const validator = require('./../Helpers/validators');
+   const validator = require('./validators');
    len = !validator.validateNumber(len) && len > 0 ? len : 8;
    let key = "";
    for (let i = 0; i < len; i++) {
@@ -44,7 +44,7 @@ generator.generateOTP = () => {
  */
 generator.generateRandomToken = (len) => {
    const possibleCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-   const validator = require('./../Helpers/validators');
+   const validator = require('./validators');
    len = validator.validateNumber(len) ? len : 16;
    let key = "";
    for (let i = 0; i < len; i++) {
