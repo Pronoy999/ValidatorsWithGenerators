@@ -15,8 +15,10 @@ A JavaScript helper library to generate and validate data.
 
 This is a library to validate data that is coming from the user end or any other source. You can validate all types of data with regex. The generate helps you generate basic dat like current date and difference between 2 dates. We are using [`moment`](https://github.com/moment/moment) in the background. 
 
+#### [Check out the NPM Package.](https://www.npmjs.com/package/validatorswithgenerators)
 
 ## Install the package using npm. 
+
 ```npm install validatorswithgenerators```
 
 ```javascript
@@ -47,7 +49,7 @@ if(validators.validateString(data)){
 ```javascript
 validateEmail(emailId)
 ```
-Method to check the validity of the email. It used this ```^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]                                      {2,})$``` REGEX to validate the email id. 
+Method to check the validity of the email. It uses REGEX to validate the email id. 
 
 ### `validatePhone(phoneNumber)` 
 ```javascript
