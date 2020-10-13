@@ -1,6 +1,6 @@
 {
   "name": "validatorswithgenerators",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A JavaScript Package for validating data and generating data. ",
   "keywords": [
     "Validators",

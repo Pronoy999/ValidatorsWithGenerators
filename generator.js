@@ -31,7 +31,7 @@ generator.generateRandomNumber = (len) => {
    return key;
 };
 /**
- * Method to generate OTP.
+ * Method to generate a 4 digit OTP.
  * @returns {number}: the OTP number.
  */
 generator.generateOTP = () => {
@@ -108,6 +108,15 @@ generator.generateDaysInMonth = (year, month) => {
  */
 generator.generateCurrentYear = () => {
    return moment().year();
+};
+/**
+ * Method to generate the ahead hours.
+ * @param aheadHours: The Ahead hours needed.
+ * @returns {string}
+ */
+generator.generateAheadTime = (aheadHours) => {
+   return new moment(generator.generateCurrentTime(), constants.DATE_TIME_FORMAT)
+      .add(aheadHours, 'hours').tz(constants.TIME_ZONE).format(constants.DATE_TIME_FORMAT);
 };
 /**
  * Method to generate the difference between 2 dates.
