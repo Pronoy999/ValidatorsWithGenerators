@@ -160,6 +160,14 @@ generateCurrentDateOnly()
 Method to generate the current date only. It will only return the date and not the time. 
 The time zone is `Asia/Kolkata`. 
 
+### `generateAheadTime(aheadHours)`
+```javascript
+generateAheadTime(aheadHours)
+```
+##### Return type `string` eg: '2020-09-09 11:20:20' 
+Method to generate the ahead date and time only. It will return the date and time. 
+The time zone is `Asia/Kolkata`. 
+
 ### `generateAheadDate(aheadDays)`
 ```javascript
 generateAheadDate(aheadDays)
