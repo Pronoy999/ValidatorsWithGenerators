@@ -1,6 +1,6 @@
 {
   "name": "validatorswithgenerators",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A JavaScript Package for validating data and generating data. ",
   "keywords": [
     "Validators",
@@ -15,6 +15,7 @@
     "start:dev": "ts-node src/index.ts",
     "start": "node dist/index.js",
     "postinstall": "tsc",
+    "prepublish": "tsc",
     "test": "jest"
   },
   "repository": {
