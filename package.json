@@ -14,7 +14,8 @@
   "scripts": {
     "start:dev": "ts-node src/index.ts",
     "start": "node dist/index.js",
-    "postinstall": "tsc"
+    "postinstall": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,14 @@
   "author": "Pronoy Mukherjee",
   "license": "MIT",
   "dependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/moment": "^2.13.0",
+    "@types/moment-timezone": "^0.5.30",
     "express": "^4.17.1",
+    "jest": "^27.0.4",
     "moment": "^2.27.0",
     "moment-timezone": "^0.5.31",
+    "ts-jest": "^27.0.3",
     "ts-node": "^10.0.0"
   },
   "devDependencies": {
